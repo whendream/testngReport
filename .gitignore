@@ -1,0 +1,7 @@
+.classpath
+.project
+.settings
+.pmd
+log/
+target/
+test-output/
