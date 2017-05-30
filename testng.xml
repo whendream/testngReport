@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="TEST">
+<suite name="TEST11">
 	<test name="Test">
 		<packages>
 			<package name="com.jwen.test.testngTest.*" />
 		</packages>
 		<!-- <classes> <class name="com.jwen.test.testngTest.service*" /> </classes> -->
 	</test> <!-- Test -->
+<!-- 	<test name="Test22">
+		<packages>
+			<package name="com.jwen.test.testngTest.*" />
+		</packages>
+		<classes> <class name="com.jwen.test.testngTest.service*" /> </classes>
+	</test> Test -->
 	<listeners><!-- 
 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> -->
-         <listener class-name='com.jwen.test.testngTest.MyReporterListener'/>
+         <!-- <listener class-name='com.jwen.test.testngTest.MyReporterListener'/> -->
+         <listener class-name='com.jwen.test.testngTest.JwenReportListener'/>
 	</listeners>
 </suite> <!-- Suite -->
