@@ -24,6 +24,9 @@ public class MyReporterListenerAdapter implements IReporter {
 			for (ISuiteResult r : tests.values()) {
 				ITestContext overview = r.getTestContext();
 				System.err.println("suite: " + overview.getName());
+				System.err.println("Stard Time: "+overview.getStartDate());
+				System.err.println("End Time: "+overview.getEndDate());
+
 				System.err.println("all methods num : "+overview.getAllTestMethods().length);
 				
 				//passed
