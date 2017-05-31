@@ -17,6 +17,6 @@
 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> -->
          <!-- <listener class-name='com.jwen.test.testngTest.MyReporterListener'/> -->
-         <listener class-name='com.jwen.test.testngTest.JwenReportListener'/>
+         <listener class-name='com.jwen.test.testngTest.CustomReportListener'/>
 	</listeners>
 </suite> <!-- Suite -->
